@@ -1,0 +1,98 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #007f00;
+}
+
+/* Cabeçalho */
+header {
+    background: #007f00;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    height: 10spx;
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; /* Aumenta o espaçamento entre os intens */
+}
+
+
+nav ul li a {
+    color: #d2ed01;; /* Amarelo */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em; /* Aumenta o tamanho da fonte */
+}
+
+/* Seção Principal */
+.hero {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('img/02Cópia de Cópia de Cópia de conferência - cópia.png'); /* Caminho da imagem */
+        background-size: cover; /* Faz a imagem cobrir toda a tela */
+        background-position: center; /* Centraliza a imagem */
+        text-align: center;
+        color: #d2ed01;
+
+    }
+    
+    
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    color: #d2ed01;
+}
+
+.hero p {
+    font-size: 2.2em;
+    color: #d2ed01;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #d2ed01; /* Verde */
+    color: #007f00;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Seção Sobre */
+.about {
+    padding: 10px;
+    color: #d2ed01;
+    
+}
+
+.about h2 {
+    color: #d2ed01;
+}
+
+/* Rodapé */
+footer {
+    background: #d2ed01;
+    image-resolution: url ('img/Untitled design 4.png');
+    color: #007f00;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
